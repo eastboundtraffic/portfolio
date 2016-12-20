@@ -2,11 +2,21 @@
 /* CSS Document */
 
 @font-face {
-    font-family: moderneSans;
+    font-family: farray;
     src: url(../fonts/FARRAY.otf);
 	font-weight: bold;
 }
-
-h1 {
-    font-family: moderneSans;
+@font-face {
+    font-family: metro;
+    src: url(../fonts/Metropolis.otf);
+	font-weight: bold;
 }
+
+h1, .navbar-brand {
+    font-family: farray;
+}
+
+h2, h3 {
+	font-family: metro;
+}
+
