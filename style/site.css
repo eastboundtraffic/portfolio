@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: moderneSans;
+    src: url(../fonts/FARRAY.otf);
+	font-weight: bold;
+}
+
+h1 {
+    font-family: moderneSans;
+}
