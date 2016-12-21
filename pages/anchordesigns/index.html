@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Anchor Designs</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+	<meta name="author" content="Samantha Rhoades" />
+	<meta name="description" content="Anchor Designs- The portfolio of web designer Samantha Rhoades" />
+	<meta name="keywords"  content="web design,anchor designs,photography,portfolio,development,front-end,html,css,pennsylvania,harrisburg " />
+	<meta name="Resource-type" content="Document" />
+
+
+	<link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="examples.css" />
+
+
+	<style>
+		/* Fixed header and footer.
+	* --------------------------------------- */
+	#header, #footer{
+		position:fixed;
+		height: 40px;
+		display:block;
+		width: 100%;
+		background: #333;
+		z-index:9;
+		text-align:center;
+		color: #f2f2f2;
+		padding: 20px 0 0 0;
+	}
+
+	#header{
+		top:0px;
+	}
+
+		/* Sections
+		 * --------------------------------------- */
+		 .section{
+	text-align:center;
+}
+		 #section0 {
+			 background: url(images/texture.png);
+		 }
+		 #section0 h1 {
+			 font-family: bebasregular, "Cooper Black";
+			 font-size: 6em;
+		 }
+		 #section0 img{
+			 max-height: 60%;
+			 max-width: 60%;
+		 }
+		#section0 img,
+		#section1 img{
+			margin: 20px 0 0 0;	
+		}
+		#section2 img{
+	width: 45%;
+	display: inline;
+	float: left;
+	margin-top: 20px;
+	margin-right: 40px;
+	margin-bottom: 20px;
+	margin-left: 52px;
+	vertical-align: middle;
+		}
+		#slide5 img {
+			width: 30%;
+		}
+		#section2 p {
+	width: 80%;
+	vertical-align: middle;
+	padding-top: 20px;
+	text-align: left;
+	padding-left: 20px;
+		}
+	#section4 img {
+		max-width:80px;
+		padding: 10px;
+	}
+	#section5 img {
+		max-width:80px;
+		padding: 10px;
+	}
+		.intro p{
+	width: 70%;
+	font-size: 1.2em;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+		}
+@media screen and (max-width: 950px){
+	.intro p{
+	width: 90%;
+}
+#section2 img{
+	width: 60%;
+	display: inline;
+	float: none;
+	margin-top: 20px;
+	margin-right: 40px;
+	margin-bottom: 20px;
+	margin-left: 52px;
+	vertical-align: middle;
+		}
+}
+@media screen and (max-width: 750px){
+	.intro p{
+	font-size: 1em;
+}
+}
+@media screen and (max-width: 475px){
+	#menu{
+		display: none;
+}
+	#menu li {
+		display:none;
+}
+	#header {
+		display: none;
+}
+}
+	.wrap {
+		width: 90%;
+	}
+	/* Overwriting styles for the navigation dots (to place it where we want)
+	* --------------------------------------- */
+	.fp-slidesNav.bottom{
+		bottom: 25px;
+	}
+	</style>
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="jquery.fullPage.js"></script>
+	<script type="text/javascript" src="examples.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				sectionsColor: ['#FFFFFF', '#E88A5C', '#FF2A22', '#66CCFF', '#E5DA0E'],
+				anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', '5thpage',  'lastPage'],
+				menu: '#menu',
+				scrollingSpeed: 1000,
+				slidesNavigation: true,
+			});
+
+		});
+	</script>
+
+</head>
+<body>
+
+
+<div id="header">
+<ul id="menu">
+	<li data-menuanchor="firstPage"><a href="#firstPage">Home</a></li>
+	<li data-menuanchor="secondPage"><a href="#secondPage">About</a></li>
+	<li data-menuanchor="3rdPage"><a href="#3rdPage">Work</a></li>
+    <li data-menuanchor="4thpage"><a href="#4thpage">Resume</a></li>
+    <li data-menuanchor="5thpage"><a href="#5thpage">Contact</a></li>
+</ul>
+</div>
+
+
+
+
+<div id="fullpage">
+	<div class="section " id="section0">
+    	<img src="images/logo.png" alt="Sailboat with an anchor logo" />
+		<h1>Anchor &nbsp; Designs</h1>
+	</div>
+    <div class="section" id="section1">
+		<div class="intro">
+			<h1>About</h1>
+            <br>
+			<p>Samantha Rhoades has attained an Associate in Arts degree in Web Development and Design with honors from Harrisburg Area Community College in Central Pennsylvania. <br> <br>
+
+She believes Web Design is the perfect balance between technological problem-solving and artistic creation. It gives her an outlet for creative impulse similar to her earlier experiences in the culinary arts; she attended Johnson and Wales University in Rhode Island for a year while pursuing a degree in pastry arts. <br> <br>
+
+While she loved cooking and it came easy to her, something was still missing. She left JWU and spent the next year and a half taking classes and searching for something that would allow her to satisfy her need for creativity but also give her a challenge. After moving back to Pennsylvania she took an HTML course out of curiosity which changed everything. <br> <br>
+
+Samantha is currently the Technology Supervisor at Staples. She is seeking a professional position in the field of Web Design and Interactive Media. <br> <br>
+
+She lives in Harrisburg with her significant other and her fish named Jackson Pollock. She still loves to make pies.</p>
+		</div>
+	</div>
+	<div class="section" id="section2">
+    
+    
+	    <div class="slide" id="slide1" data-anchor="slide1">
+			<div class="intro">
+            <div class="wrap">
+            <h1>Designs</h1>
+			  <img src="images/spascc.JPG" alt="Capture of the South Central Sickle Cell Council website Board of Directors page." />
+			  <p>South Central PA Sickle Cell Council- Worked in a team of 5 as a designer to create a new, modern, informational website for the South Central PA Sickle Cell council. Designed 5 page layouts using Adobe Illustrator creating multiple versions at request of the client. Coded 4 pages using javascript, jquery, css styles, html and implementing specifically: modal boxes, jquery tabs, jquery accordions, responsive resizing, SEO and more. </p>
+			</div>	
+		  </div>
+
+		</div>
+	   <div class="slide" id="slide2" data-anchor="slide2">
+			<div class="intro">
+            <div class="wrap">
+            
+			  <img src="images/portfolio.JPG" alt="Capture of former Anchor Designs website" />
+			  <p>Former portfolio site. Implemented a gallery using fancybox, similar to lightbox. Responsive with tablet and mobile views. Logo and favicon designed in Illustrator.</p>
+			</div>	
+		  </div>
+
+		</div>
+	    <div class="slide" id="slide3" data-anchor="slide3">
+			<div class="intro">
+            <div class="wrap">
+            
+			  <img src="images/webdesign.jpg" alt="Capture of portfolio site design using golden spiral called somnial designs" />
+			  <p>An early design created in Illustrator to experiment with the golden spiral principle and different sorts of navigation as well as color.</p>
+			</div>	
+		  </div>
+
+		</div>
+	    <div class="slide" id="slide4" data-anchor="slide4">
+			<div class="intro">
+            <div class="wrap">
+           
+			  <img src="images/metropolis.jpg" alt="Art deco movie poster created for the film Metropolis" />
+			  <p>Movie poster created in Illustrator as an example of typographic design and color schemes. Image was created from screen shot from the film Metropolis using multiple image tracing techniques.</p>
+			</div>	
+		  </div>
+
+		</div>
+        <div class="slide" id="slide5" data-anchor="slide5">
+			<div class="intro">
+            <div class="wrap">
+            
+			  <img id="squareimg" src="images/selfie.jpg" alt="Illustration of Samantha Rhoades" />
+			  <p>Self portrait created in Illustrator. Hand traced facial features with the pen tool. Experimented with color, textures, and gradients to produce a visually interesting result.</p>
+			</div>	
+		  </div>
+
+		</div>
+	
+    <div class="slide" id="slide6" data-anchor="slide6">
+			<div class="intro">
+            <div class="wrap">
+            
+			  <img src="images/cephalopods.png" alt="Screen capture of a sample site about cepalopods" />
+			  <p>Example of an interactive site made in Edge Animate. Navigation is animated on hover including a color change, movement, and shadow. Squid image shifts when hovered over.</p>
+			</div>	
+		  </div>
+
+		</div>
+       <div class="slide" id="slide7" data-anchor="slide7">
+			<div class="intro">
+            <div class="wrap">
+          
+			  <img src="images/map.JPG" alt="Graphical map of the Johnson and Wales Harborside Campus in Providence, Rhode Island" />
+			  <p>Map drawn in Illustrator of the Johnson and Wales Harborside Campus in Providence, Rhode Island</p>
+			</div>	
+		  </div>
+
+		</div> 
+        <div class="slide" id="slide8" data-anchor="slide8">
+			<div class="intro">
+            <div class="wrap">
+          
+			  <img src="images/westside.jpg" alt="Brick wall with 'west side' grafittied on top" />
+			  <p>Image created in Photoshop using an image of a blank brick wall, hand painted lettering, and blending tools to create the illusion of graffiti. Used clone stamp and other touchup tools to remove imperfections in the brick background. Used gradients, shadows and glow to create the colorful lettering.</p>
+			</div>	
+		  </div>
+
+		</div> 
+	</div>
+    
+    
+    
+	
+    <div class="section" id="section4">
+		<div class="intro">
+			<h1>Resume</h1>
+			<p>
+				View/Download Samantha's Resume
+				<br /><br>
+			</p>
+		</div>
+        <a href="resume2015.pdf"><img src="images/pdficon.png" alt="Adobe PDF Icon" /></a>
+		<a href="resume2015.jpg"><img src="images/imageicon.png" alt="Image Document Icon" /></a>
+        
+	</div>
+    <div class="section" id="section5">
+		<div class="intro">
+			<h1>Contact</h1>
+			<p><b>
+				For any inquiries, contact Samantha by phone or email. She would love to hear from you!
+			</b></p><br>
+            <p> Phone: 717-712-5738</p>
+            <p> Email: <a href="mailto:samantharhoades42@yahoo.com" target="_top">samantharhoades42@gmail.com</a></p><br>
+            <p><b> Additionally, Samantha can be found on social media: </b></p><br>
+            <a href="https://www.facebook.com/samantha.rhoades42"><img src="images/facebookicon.png" alt="Facebook Icon" /></a>
+            <a href="https://www.linkedin.com/in/samantharhoades"><img src="images/linkedinicon.png" alt="Linkedin Icon" /></a>
+		</div>
+		
+	</div>
+</div>
+
+</body>
+</html>
