@@ -33,3 +33,13 @@ body {
 footer {
     margin: 50px 0;
 }
+/* add border to images */
+
+.portfolio, .portfolio-full {
+	border:thin solid #999;
+}
+
+.portfolio:hover {
+	color:gray;
+	opacity:0.7;
+}
