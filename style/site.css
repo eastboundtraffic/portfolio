@@ -16,7 +16,16 @@ h1, .navbar-brand {
     font-family: farray;
 }
 
-h2, h3 {
+h2, h3{
 	font-family: metro;
 }
+
+a:hover {
+	color: #336;
+	text-decoration: none;
+}
+a {
+	color: #09C ;
+}
+
 
